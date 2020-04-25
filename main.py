@@ -1,14 +1,14 @@
 from mad_libs.main import *
 from roll_the_dice.main import *
 
-welcome = "Welcome to Andrew's Repository. Please select which program you would like to run:\n"\
-          "\t1 - Mad Libs\n"\
+welcome = "Welcome to Andrew's Repository. Please select which program you would like to run:\n" \
+          "\t1 - Mad Libs\n" \
           "\t2 - Roll the Dice\n"
 
 print(welcome)
 
-invalid_entry = "------------------------------------------------------------\n"\
-                "\tInvalid Entry, please choose a number between 1 and 2\n"\
+invalid_entry = "------------------------------------------------------------\n" \
+                "\tInvalid Entry, please choose a number between 1 and 2\n" \
                 "------------------------------------------------------------"
 while True:
     try:
@@ -26,4 +26,4 @@ if selection == 1:
     mad_libs()
 
 if selection == 2:
-  roll_the_dice()
+    roll_the_dice()
