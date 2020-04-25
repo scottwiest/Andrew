@@ -16,7 +16,7 @@ while True:
     except ValueError:
         print(invalid_entry)
         continue
-    if selection < 0 or selection > 2:
+    if selection <= 0 or selection > 2:
         print(invalid_entry)
         continue
     else:
