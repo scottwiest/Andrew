@@ -33,3 +33,4 @@ def mad_libs():
             "==================================================="
 
     print(story)
+    print("Thank you for using my program.")
