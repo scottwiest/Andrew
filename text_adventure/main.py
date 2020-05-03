@@ -116,7 +116,7 @@ def text_adventure():
         else:
             curr_room = peak_room
 
-    file_name = os.path.dirname(os.path.realpath(__file__)) + "/TaDa.mp3"
+    file_name = os.path.dirname(os.path.realpath(__file__)) + "/TaDa.wav"
     print("----------------------------------------------------")
     print("Congratulations! You made it out of the Ghost House!")
     print("----------------------------------------------------\n")
