@@ -1,6 +1,4 @@
-import os
 from time import sleep
-from playsound import playsound
 
 directions = ["North", "East", "South", "West"]
 name_str = "Name"
@@ -116,9 +114,7 @@ def text_adventure():
         else:
             curr_room = peak_room
 
-    file_name = os.path.dirname(os.path.realpath(__file__)) + "/TaDa.wav"
     print("----------------------------------------------------")
     print("Congratulations! You made it out of the Ghost House!")
     print("----------------------------------------------------\n")
-    playsound(file_name)
     print("Thank you for using my program.")
