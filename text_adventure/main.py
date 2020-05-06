@@ -88,7 +88,7 @@ def text_adventure():
                 print("Directions you can go:")
                 for idx, direction in enumerate(directions):
                     idx_1 = idx + 1
-                    print(str(idx_1) + " - " + direction)
+                    print("\t" + str(idx_1) + " - " + direction)
                 direction_number = int(input("Where do you want to go? "))
             except ValueError:
                 print(invalid_entry)
